@@ -1,6 +1,6 @@
 from application_logging.logger import logger
 from flask import Flask, request, render_template
-from flask_cors import cross_origin
+from flask_cors import CORS , cross_origin
 import pickle
 
 app = Flask(__name__)
